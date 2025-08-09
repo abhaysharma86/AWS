@@ -25,7 +25,7 @@ public class FileUploadService {
     private  final EnvConfig config;
     private final S3Presigner s3Presigner;
 
-    public FileUploadService(S3Client s3Client, EnvConfig config, AwsCredentialsProvider awsCredentialsProvider, S3Presigner s3Presigner) {
+    public FileUploadService(S3Client s3Client, EnvConfig config, S3Presigner s3Presigner) {
         this.s3Client = s3Client;
         this.config = config;
         this.s3Presigner = s3Presigner;
