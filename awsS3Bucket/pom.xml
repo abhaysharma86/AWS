@@ -51,6 +51,11 @@
 			<artifactId>s3</artifactId>
 			<version>2.25.12</version> <!-- ✅ Use latest version or a working stable one -->
 		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-log4j2</artifactId>
+		</dependency>
 	</dependencies>
 
 	<build>
